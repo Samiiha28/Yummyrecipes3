@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/Samiiha28/Yummyrecipes3.svg?branch=master)](https://travis-ci.org/Sebuliba-Adrian/DOOF)
-[![Coverage Status](https://coveralls.io/repos/github/Samiiha28/Yummyrecipes3/badge.svg?branch=master)](https://coveralls.io/github/Sebuliba-Adrian/DOOF?branch=master)
+[![Build Status](https://travis-ci.org/Samiiha28/Yummyrecipes3.svg?branch=master)](https://travis-ci.org/Samiiha28/Yummyrecipes3)
+[![Coverage Status](https://coveralls.io/repos/github/Samiiha28/Yummyrecipes3/badge.svg?branch=master)](https://coveralls.io/github/Samiiha28/Yummyrecipes3?branch=master)
 
 RECIPES APP
 
@@ -15,7 +15,7 @@ The innovative yummy recipes app is an application that allows users  to create,
 
 Installation
  CLONE THE GITHUB REPO:
-	$ https://github.com/Samiiha28/Yummyrecipes1
+	$ https://github.com/Samiiha28/Yummyrecipes3
 Navigate to the root folder
 
 Then navigate to 
@@ -61,5 +61,6 @@ Provide the flask application environment variable
    i have used Unittests for test.
    To run tests
    make sure you are at the root dirctory and simply run
-	  $ nose2
+	  
+    $ nose2
 	
