@@ -20,11 +20,10 @@ def login(username, password):
     if username and password:
         if USERS.get(username):
             if USERS[username].password == password:
-                return False
+                return True
             return False
         return False
     return False
-
 
 @app.route('/')
 def home():
@@ -59,7 +58,6 @@ def sign_up():
 @app.route('/dashboard')
 def dashboard():
     return render_template('dashboard.html')
-
 
 @app.route('/add_recipe', methods=['GET', 'POST'])
 def add_category():
