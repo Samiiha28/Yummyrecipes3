@@ -6,8 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Yummy Recipes</title>
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="{{url_for('static',filename='css/bootstrap.min.css')}}">
+        <link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}">
     </head>
 
     <body>
@@ -25,10 +25,10 @@
                             <a href="#">Categories</a>
                         </li>
                         <li>
-                            <a href="login.html">Login</a>
+                            <a href="{{ url_for('sign_in') }}">Login</a>
                         </li>
                         <li>
-                            <a href="registration.html">Sign up</a>
+                            <a href="{{ url_for('sign_up') }}">Sign up</a>
                         </li>
                     </ul>
                 </nav>
@@ -44,7 +44,7 @@
                     This is a simple web application that allows you to create, save and share recipes thereby helping you keep track of awesome food recipes.
                     
                 </p>
-                <a class="btn btn-success" href="registration.html">Create Account</a>
+                <a class="btn btn-success" href="{{ url_for('sign_up') }}">Create Account</a>
             </div>
             <!--banner ends -->
             <!-- recipes section begins-->
@@ -73,8 +73,9 @@
         </div>
 
 
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="{{url_for('static',filename='js/jquery.min.js')}}"></script>
+        <script src="{{url_for('static',filename='js/bootstrap.min.js')}}"></script>
+        
     </body>
 
 </html>
