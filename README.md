@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/Samiiha28/Yummyrecipes3.svg?branch=master)](https://travis-ci.org/Sebuliba-Adrian/DOOF)
+[![Coverage Status](https://coveralls.io/repos/github/Samiiha28/Yummyrecipes3/badge.svg?branch=master)](https://coveralls.io/github/Sebuliba-Adrian/DOOF?branch=master)
+
 RECIPES APP
 
 #food recipe
