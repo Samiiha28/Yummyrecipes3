@@ -55,6 +55,9 @@ Provide the flask application environment variable
     $ python app.py
   
   HOSTING.
+  static site is at
+     http://Samiiha28/github.io/Recipes
+     
   
    
    Testing.
